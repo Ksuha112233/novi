@@ -1,0 +1,381 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	color: #ad6588;
+	text-decoration: none;
+	color: black;
+
+}
+a{
+	color: #604763;
+	text-decoration: none;
+
+}
+a:hover{
+	color: #000;
+}
+body {
+
+      width: 100%;
+      min-width: 375px;
+      max-width: 1920px;
+	  min-height: 100vh;
+	   font-family: 'Montserrat', sans-serif;
+
+}
+.header_verh{
+	background-color: #e8d3e2;
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+	font-size: calc(10px + 13 * (100vw / 1280));
+	padding: 10px;
+    border-radius:0 0 50px  50px; 
+
+
+}
+header{
+	margin-top: 25px;
+	margin: 0 auto; 
+	display:block;
+	height: auto;
+	width: 100%;
+    max-width: 100%;
+
+
+    
+}
+
+.ssilka{		
+
+}
+.header_nadpis{
+	max-width: 1200px;
+	margin: 0 auto; 
+	padding: 10px;
+
+
+}
+.nadpisi1{
+	padding: 10px 0;
+	font-size: calc(20px + 30 * (100vw / 1280));
+	color: #604763;
+font-weight: bold;
+}
+.nadpisi2{
+	
+	font-size: calc(7px + 30 * (100vw / 1280));
+	color: #ad6588;
+
+}
+.box{
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	 min-height: 30vh;
+	    	background-image: url(../img/foto.jpg);
+	    	    min-width: 375px;
+	    	    	width: 100%;}
+
+.zakazat{
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin:25px 0;
+   padding: 10px 15px;
+   font-size: 2vw;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   transition: 0.4s ease-in-out;
+
+}
+.zakazat{
+	 color: #ad6588;
+   border-radius: 25px;
+   border: 3px solid  #ad6588;
+
+}
+.zakazat:hover {
+   color: white;
+   background: #ad6588;
+}
+.content{
+	max-width: 100%;
+	margin: 0 auto;
+}
+.blok2{
+	color: #604763;
+		font-size: calc(12px + 15 * (100vw / 1280));
+		padding: 20px;
+		background-color: #e8d3e2;
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		align-items: center;
+		flex-wrap: wrap;
+
+		margin: 0 auto;
+
+
+}
+.text{
+
+	font-size: calc(12px + 15 * (100vw / 1280));
+	color: #604763;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.content_table{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+	.black{
+	background: #604763;
+    padding: 10px 10px ;
+    margin-bottom: 2px;
+    text-align: center;
+    height: 35px;
+    display: block;
+    color: white;
+  border-bottom-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    font-weight: bold;
+    margin: 5px 0;
+
+}
+.roll_content{
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+}
+.roll_content{
+	width: 350px;
+	height: 350px;
+}
+.otstup{
+	margin: 5px;
+}
+.ddd{
+	margin: 25px 0;
+	color: #604763;
+
+}
+.text_2{
+		font-size: calc(12px + 15 * (100vw / 1280));
+	color: #604763;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.blok3{
+	display: flex;
+justify-content: center;
+	flex-wrap: wrap;
+}
+.www{
+	max-width: 500px;
+	margin:30px;
+	font-size: calc(12px + 13 * (100vw / 1280));
+	color: #604763;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.ppp{
+	max-width: 500px;
+	font-size: calc(12px + 15 * (100vw / 1280));
+	color: #604763;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+
+}
+
+.kakrabotaem{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin:20px;
+margin-left: 50px;
+line-height: 1.5;
+}
+
+
+
+.circle__text{
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	word-spacing: 25px;
+	animation: motion normal infinite 20s linear;
+	transform-origin: 50% 50%;}
+
+	@keyframes motion{
+	to{
+		transform: rotate(360deg);
+	}
+}
+.circle:hover .circle__text
+{
+	animation-play-state: paused;
+}
+.sv{
+	background-image:url(../img/svadba.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 80vh;
+	    	     min-width: 375px;
+	    	    	width: 100%;
+	    	   	display: flex;
+	    	   	justify-content: flex-end;
+	    	   	align-items: center;
+}
+
+.noon{
+	background-color: rgba(255, 255, 255, 0.9);
+	margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.foot5{
+	display: flex;
+	align-items: center;
+	background-image: url(../img/magaz1.jpg.jpg);
+	  background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	 min-height: 70vh;
+	 line-height: 1.5;
+}
+
+.sv_text{
+	max-width: 450px;
+	background-color: rgba(255, 255, 255, 0.7);
+		    	   	margin: 10px;
+	    	   	padding: 10px;
+	    	   	margin-right: 30px;
+	    	   	border-radius: 10%;
+	    	   	line-height: 1.5;
+
+}
+.ccccc{
+	color:  #604763;
+}
+.svt{
+	margin: 10px;
+	padding: 10px;
+}
+.qwe{
+	color: #604763;
+}
+.img_logo{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.footer_foto{
+	width: 150px;
+	height: 100px;
+}
+.glava{
+	display: flex;
+	max-width: 1200px;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.rrr{
+	font-size: calc(10px + 10 * (100vw / 1280));
+	color: #604763;
+	padding-top: 10px;
+}
+.rqr{
+	font-size: calc(10px + 10 * (100vw / 1280));
+	color: #093536;
+	padding-top: 10px;
+	font-weight: normal;
+}
+.ssilka1{
+	font-size: calc(10px + 10 * (100vw / 1280));
+	color: #604763;
+}
+li{
+	list-style-type:none;
+}
+.koguvcavis-varazdel {
+  padding: 38px 0;
+  background:#fff;
+  text-align: center;
+  line-height: 1.5;
+}
+.sestim-donials{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.sectionesag {
+  width: 195px;
+  height: 3px;
+  background: #604763;
+  margin: 23px auto;
+}
+
+.sagestim-lonials{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.vemotau-vokusipol{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial {
+  background: #e8d3e2;
+  padding: 28px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.gecedanam{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.apogered-gselected{
+  color: #53b32b;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+.vemotau-vokusipol{
+  flex: 100%;
+  max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.vemotau-vokusipol{
+  flex: 100%;
+  max-width: 100%;
+}
